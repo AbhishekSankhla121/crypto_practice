@@ -5,8 +5,10 @@ export default function Profile() {
     <>
       <Image
         src="/UserImage.png"
-        className="w-full h-full rounded-full md:h-[40px] md:w-[40px]"
         alt="User image"
+        width={100}
+        height={100}
+        className="w-full h-full rounded-full md:h-[40px] md:w-[40px]"
       />
     </>
   );

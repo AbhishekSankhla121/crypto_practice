@@ -19,6 +19,8 @@ export default function Tablemain() {
                 </div>
                 <div className="h-[36px] w-[36px]">
                   <Image
+                    width={100}
+                    height={100}
                     src="/table.png"
                     alt="table"
                     className="h-full w-full"
@@ -37,6 +39,8 @@ export default function Tablemain() {
               <div className="w-[70px] flex items-center font-hk-grotesk text-[12px] text-[#FAFAFB] leading-[17.12px] justify-center font-semibold tracking-[2%]">
                 <div className="w-[32px] h-[32px] bg-[#313943] rounded-[3px] flex justify-center items-center">
                   <Image
+                    width={100}
+                    height={100}
                     src="/setting.png"
                     alt="Setting"
                     className="h-[12px] w-[12px]"

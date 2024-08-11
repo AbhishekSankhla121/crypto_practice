@@ -43,6 +43,8 @@ export default function FirstTrading({
         }}
       >
         <Image
+          width={100}
+          height={100}
           src={data.image}
           className="h-[100px] w-[100px]"
           alt={data.image}

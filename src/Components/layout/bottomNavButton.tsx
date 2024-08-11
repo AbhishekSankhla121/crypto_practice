@@ -7,6 +7,8 @@ export default function BottomNavButton({ data }: { data: ButtonNavData }) {
       <div className=" border-r-[1px] border-r-[#4C5259] px-4 md:px-0 ">
         <div className="mx-2 md:w-[250px] w-10% md:gap-[16px]  md:mx-0 gap-[4px] md:h-[44px] flex justify-around md:justify-center  items-center">
           <Image
+            width={100}
+            height={100}
             src={`${data.image}`}
             className="w-[24px] h-[24px]"
             alt={data.image}

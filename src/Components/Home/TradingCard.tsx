@@ -74,6 +74,8 @@ export default function TradingCard({
             <div className="w-full flex justify-between">
               <div className="flex items-center">
                 <Image
+                  width={100}
+                  height={100}
                   src={Dependiencies[trading].image}
                   className="h-[32px] w-[32px]"
                   alt={Dependiencies[trading].image}
@@ -109,16 +111,22 @@ export default function TradingCard({
                   </>
                 )}
                 <Image
+                  width={100}
+                  height={100}
                   src={element.imageOne}
                   className="h-[32px] w-[32px] mx-2"
                   alt={element.imageOne}
                 />
                 <Image
+                  width={100}
+                  height={100}
                   src="/exchange.png"
                   className="w-[16px] h-[16px] mx-2"
                   alt={element.imageTwo}
                 />
                 <Image
+                  width={100}
+                  height={100}
                   src={element.imageTwo}
                   className="w-[32px] h-[32px] mx-2"
                   alt={element.imageTwo}

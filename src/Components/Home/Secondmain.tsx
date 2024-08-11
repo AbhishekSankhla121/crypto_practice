@@ -45,6 +45,8 @@ export default function Secondmain() {
                 </div>
                 <div className="h-[36px] w-[36px]">
                   <Image
+                    width={100}
+                    height={100}
                     src={element.image}
                     alt={element.image}
                     className="h-full w-full"
@@ -66,6 +68,8 @@ export default function Secondmain() {
                 <div className="flex items-center font-hk-grotesk text-[12px] text-[#FAFAFB] leading-[17.12px] justify-center font-semibold tracking-[2%]">
                   <div className="w-[32px] h-[32px] bg-[#313943] rounded-[3px] flex justify-center items-center">
                     <Image
+                      width={100}
+                      height={100}
                       src="/setting.png"
                       alt="setting"
                       className="h-[12px] w-[12px]"

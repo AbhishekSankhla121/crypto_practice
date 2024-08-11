@@ -117,6 +117,8 @@ const NavSlideOut = ({ isOpen, toggleMenu }: NavbarPorps) => {
                   <div className={`w-full my-5  p-3 flex bg-[#212A32]`}>
                     <div className="h-[24px] w-[24px] rounded-full mr-2">
                       <Image
+                        width={100}
+                        height={100}
                         className="h-full w-full rounded-full"
                         src={e.img}
                         alt={e.img}

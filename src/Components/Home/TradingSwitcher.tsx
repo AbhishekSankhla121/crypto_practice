@@ -57,6 +57,8 @@ export default function TradingSwitcher({
               <button className=" flex items-center  py-2 px-3 mx-auto">
                 <div className="w-[24px] h-[24px] relative">
                   <Image
+                    width={100}
+                    height={100}
                     src={e.img}
                     className="h-full w-full object-contain"
                     alt={e.img}

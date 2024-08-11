@@ -9,6 +9,8 @@ export default function Obsidian() {
           id="name"
         >
           <Image
+            width={100}
+            height={100}
             src="/crystal.png"
             className="h-[20.63px] w-[20.63px] z-10 "
             alt="crsytal"
