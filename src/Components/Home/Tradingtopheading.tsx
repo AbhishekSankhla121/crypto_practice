@@ -9,7 +9,7 @@ export default function TradingtopHeading() {
             <Image
               width={100}
               height={100}
-              src="/trd.png"
+              src="/Trading.png"
               className="w-[22.59px] h-[24px]"
               alt="trading"
             />

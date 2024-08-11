@@ -19,11 +19,11 @@ export default function Tablemain() {
                 </div>
                 <div className="h-[36px] w-[36px]">
                   <Image
-                    width={100}
-                    height={100}
+                    width={36}
+                    height={36}
                     src="/table.png"
                     alt="table"
-                    className="h-full w-full"
+                    className="h-[36px] w-[36px]"
                   />
                 </div>
               </div>

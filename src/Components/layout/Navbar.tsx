@@ -19,8 +19,8 @@ export default function NavBar({ toggleMenu }: NavbarPorps) {
         <div id="Nav-image">
           <Image
             src="/company-logo-name.png"
-            height={1}
-            width={1}
+            height={1000}
+            width={1000}
             className=" hidden md:block max-w-[243.22px] max-h-[44.57px]"
             alt="Company logo"
           />
