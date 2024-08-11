@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+}
+
+
+@font-face {
+  font-family: 'Hk Grotesk';
+  src: url('/fonts/hk-grotesk/HKGrotesk-Regular.otf') format('opentype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'font Awsome';
+  src: url('/fonts/Font%20Awesome%205%20Brands-Regular-400.otf') format('opentype');
+  font-style: normal;
+}
+
+@layer components{
+  .all-center{
+    @apply justify-center items-center flex
+  }
+  .top-head-linear-gradient-bg{
+    @apply bg-gradient-to-r from-[#08B1DC] to-[#8052D3]
+  }
+  .show-balance-button{
+    @apply h-[26px] w-[26px] rounded-[3px] font-font-Awsome text-center leading-[13.65px] font-black text-[#FFFFFF] text-[10px] mx-1 
+  }
+  .obsidian-Tier{
+    @apply h-[31.5px] w-[119px] 
+  }
+  .th-table{
+    @apply text-[#FFFFFF] tracking-[2%] leading-[17.12px] text-[12px] font-lexend-deca
+  }
+}
+
+.gradient-border-mask {
+  position: relative;
+  padding: 1.3rem;
+  backdrop-filter: blur(10px);
+}
+
+.scroll-none::-webkit-scrollbar{
+  display: none;
+}
+
+
+.gradient-border-mask::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 15px;
+  border: 5px solid transparent;
+  background: linear-gradient(140deg, red, orange, yellow, green, indigo, blue) border-box;
+  mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+}
+
+
+.inherit-radius{
+  border-radius: inherit;
+  border-radius: 2px solid;
+}
+
+
+.top-mob-nav{
+  background: linear-gradient(90deg, #00BAE8, #1AC0DD, #24C5D2, #28CBC7, #29D0BC,#26D6B1) border-box;
+}
+.top-mob-green{
+  background: linear-gradient(90deg, #03DAC5, #25D6B2, #31D29E, #38CE8B, #3BCA77  ,#3BC663) border-box;
+}
+
+
+.Scroll-none::-webkit-scrollbar {
+  display: none;
+  height: 0;
+  width: 0;
+}
