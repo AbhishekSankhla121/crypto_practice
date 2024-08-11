@@ -1,9 +1,9 @@
 "use client";
 
-import HomeHeader from "@/Components/Home/HomeHeader";
-import HomeSubHeader from "@/Components/Home/HomeSubHeading";
-import HomeTable from "@/Components/Home/HomeTable";
-import Trading from "@/Components/Home/Trading";
+import HomeHeader from "@/Components/HomeHeader";
+import HomeSubHeader from "@/Components/HomeSubHeading";
+import HomeTable from "@/Components/HomeTable";
+import Trading from "@/Components/Trading";
 import { useState } from "react";
 
 export default function Home() {

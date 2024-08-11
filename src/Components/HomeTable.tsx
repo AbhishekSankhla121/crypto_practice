@@ -1,10 +1,10 @@
 "use client";
 
 import React from "react";
-import Tablemain from "./Tablemain";
-import Tablebottom from "./Tablebottom";
 import Tabletop from "./tabletop";
 import Secondmain from "./Secondmain";
+import Tablebottom from "./Tablebottom";
+import Tablemain from "./Tablemain";
 
 interface HomeTableProps {
   collectibles: boolean;

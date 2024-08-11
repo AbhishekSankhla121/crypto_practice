@@ -2,7 +2,6 @@ import { FaQrcode } from "react-icons/fa";
 import { FaBars } from "react-icons/fa";
 import Obsidian from "./Obsediantier";
 import Profile from "./Profile";
-import { useState } from "react";
 import Image from "next/image";
 
 interface NavbarPorps {
