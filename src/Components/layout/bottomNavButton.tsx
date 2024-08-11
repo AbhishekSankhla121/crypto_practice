@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { ButtonNavData } from "./bottomNav";
 
 export default function BottomNavButton({ data }: { data: ButtonNavData }) {
@@ -5,7 +6,11 @@ export default function BottomNavButton({ data }: { data: ButtonNavData }) {
     <>
       <div className=" border-r-[1px] border-r-[#4C5259] px-4 md:px-0 ">
         <div className="mx-2 md:w-[250px] w-10% md:gap-[16px]  md:mx-0 gap-[4px] md:h-[44px] flex justify-around md:justify-center  items-center">
-          <img src={`${data.image}`} className="w-[24px] h-[24px]" alt="" />
+          <Image
+            src={`${data.image}`}
+            className="w-[24px] h-[24px]"
+            alt={data.image}
+          />
           <p className="md:text-[16px] text-center text-[14px] font-semibold leading-[21px] w-[90px] md:leading-[21.82px] font-hk-grotesk text-[#FAFAFB]">
             {data.name}
           </p>

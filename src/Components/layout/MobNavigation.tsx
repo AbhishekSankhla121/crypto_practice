@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import Profile from "./Profile";
 import Obsidian from "./Obsediantier";
+import Image from "next/image";
 
 const data = [
   "Logout Of You Account",
@@ -115,10 +116,10 @@ const NavSlideOut = ({ isOpen, toggleMenu }: NavbarPorps) => {
                 <React.Fragment key={i}>
                   <div className={`w-full my-5  p-3 flex bg-[#212A32]`}>
                     <div className="h-[24px] w-[24px] rounded-full mr-2">
-                      <img
+                      <Image
                         className="h-full w-full rounded-full"
                         src={e.img}
-                        alt=""
+                        alt={e.img}
                       />
                     </div>
                     {e.name}

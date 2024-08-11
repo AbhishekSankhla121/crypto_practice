@@ -3,6 +3,7 @@ import { FaBars } from "react-icons/fa";
 import Obsidian from "./Obsediantier";
 import Profile from "./Profile";
 import { useState } from "react";
+import Image from "next/image";
 
 interface NavbarPorps {
   toggleMenu: any;
@@ -16,15 +17,15 @@ export default function NavBar({ toggleMenu }: NavbarPorps) {
         id="NavBar"
       >
         <div id="Nav-image">
-          <img
+          <Image
             src="/company-logo-name.png"
             className=" hidden md:block max-w-[243.22px] max-h-[44.57px]"
-            alt=""
+            alt="Company logo"
           />
-          <img
+          <Image
             src="/compony-logo-image.png"
             className="w-[40px] h-[40px]  md:hidden"
-            alt=""
+            alt="logo"
           />
         </div>
 

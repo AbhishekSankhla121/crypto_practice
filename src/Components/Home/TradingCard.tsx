@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from "react";
 import { FaArrowRightArrowLeft } from "react-icons/fa6";
 import { CardData } from "./Trading";
+import Image from "next/image";
 
 interface TradingCardProps {
   trading: number;
@@ -72,10 +73,10 @@ export default function TradingCard({
           >
             <div className="w-full flex justify-between">
               <div className="flex items-center">
-                <img
+                <Image
                   src={Dependiencies[trading].image}
                   className="h-[32px] w-[32px]"
-                  alt=""
+                  alt={Dependiencies[trading].image}
                 />
                 <h5 className="font-hk-grotesk font-semibold  text-[14px] md:text-[18px] leading-[24.5px] text-[#F3F4F6]  mx-2">
                   {/* show the label acc Swtich */}
@@ -107,20 +108,20 @@ export default function TradingCard({
                     </button>
                   </>
                 )}
-                <img
+                <Image
                   src={element.imageOne}
                   className="h-[32px] w-[32px] mx-2"
-                  alt=""
+                  alt={element.imageOne}
                 />
-                <img
+                <Image
                   src="/exchange.png"
                   className="w-[16px] h-[16px] mx-2"
-                  alt=""
+                  alt={element.imageTwo}
                 />
-                <img
+                <Image
                   src={element.imageTwo}
                   className="w-[32px] h-[32px] mx-2"
-                  alt=""
+                  alt={element.imageTwo}
                 />
               </div>
             </div>

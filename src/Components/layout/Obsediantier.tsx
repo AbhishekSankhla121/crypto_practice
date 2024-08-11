@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Obsidian() {
   return (
     <>
@@ -6,10 +8,10 @@ export default function Obsidian() {
           className=" h-[100%] rounded-[4.35px] opacity-[0.7] z-1 w-[100%] all-center  bg-gradient-to-r from-[#18313D] to-[#25273B] px-2 py-1"
           id="name"
         >
-          <img
+          <Image
             src="/crystal.png"
             className="h-[20.63px] w-[20.63px] z-10 "
-            alt=""
+            alt="crsytal"
           />
           <span className="z-10'">Obsidian Tier</span>
         </div>

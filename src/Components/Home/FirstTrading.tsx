@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export interface handleState {
   particleBool?: boolean;
   polyientBool?: boolean;
@@ -40,7 +42,11 @@ export default function FirstTrading({
           }
         }}
       >
-        <img src={data.image} className="h-[100px] w-[100px]" alt="" />
+        <Image
+          src={data.image}
+          className="h-[100px] w-[100px]"
+          alt={data.image}
+        />
         <p className="font-hk-grotesk font-bold text-[16px]">{data.title}</p>
         <p className="font-hk-grotesk font-medium text-center text-[16px]">
           {data.description}

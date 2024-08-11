@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const data = [
@@ -43,7 +44,11 @@ export default function Secondmain() {
                   />
                 </div>
                 <div className="h-[36px] w-[36px]">
-                  <img src={element.image} className="h-full w-full" />
+                  <Image
+                    src={element.image}
+                    alt={element.image}
+                    className="h-full w-full"
+                  />
                 </div>
               </div>
               <div className="w-[70px] flex items-center font-hk-grotesk text-[12px] justify-center  text-[#FAFAFB] leading-[17.12px] font-semibold tracking-[2%]">
@@ -60,9 +65,9 @@ export default function Secondmain() {
                 </div>
                 <div className="flex items-center font-hk-grotesk text-[12px] text-[#FAFAFB] leading-[17.12px] justify-center font-semibold tracking-[2%]">
                   <div className="w-[32px] h-[32px] bg-[#313943] rounded-[3px] flex justify-center items-center">
-                    <img
+                    <Image
                       src="/setting.png"
-                      alt=""
+                      alt="setting"
                       className="h-[12px] w-[12px]"
                     />
                   </div>

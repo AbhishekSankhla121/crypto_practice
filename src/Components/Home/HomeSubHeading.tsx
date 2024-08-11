@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import React from "react";
 
 interface HomeSubHeaderProps {
@@ -84,7 +85,7 @@ export default function HomeSubHeader({
           <div>
             <button className="flex justify-center items-center  py-[12.58px] px-[17.15px] bg-[#1766FF] rounded-[3px]">
               <div className="w-[15.06px] h-[15.06px]">
-                <img src="/cargo.png" className="h-full w-full" alt="Cargo" />
+                <Image src="/cargo.png" className="h-full w-full" alt="Cargo" />
               </div>
               <span className=" font-lexend-deca font-normal text-[12px] leading-[17.12px] text-[#FFFFFF]">
                 View All On Cargo

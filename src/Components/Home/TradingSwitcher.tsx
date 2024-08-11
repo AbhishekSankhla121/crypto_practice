@@ -1,6 +1,7 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import Image from "next/image";
+import React from "react";
 
 // sample data
 const data = [
@@ -55,10 +56,10 @@ export default function TradingSwitcher({
               ></div>
               <button className=" flex items-center  py-2 px-3 mx-auto">
                 <div className="w-[24px] h-[24px] relative">
-                  <img
+                  <Image
                     src={e.img}
                     className="h-full w-full object-contain"
-                    alt=""
+                    alt={e.img}
                   />
                 </div>
                 <span className="font-lexend-deca font-semibold text-[#FFFFFF] leading-[16px] text-[20px] mx-1">
